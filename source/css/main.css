@@ -1,0 +1,287 @@
+.assign-1-shape-1 {
+  width: 500px;
+  padding: 20px;
+  background-color: blueviolet;
+  width: 35%;
+  margin: auto;
+}
+.assign-1-shape-2 {
+  width: 500px;
+  padding: 20px;
+  background-color: rgb(138 43 226 /50%);
+  width: 35%;
+  margin: auto;
+}
+.assign-1-shape-3 {
+  width: 500px;
+  padding: 20px;
+  background-color: rgb(138 43 226 /10%);
+  width: 35%;
+  margin: auto;
+}
+.assign-2-shape-1 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: no-repeat;
+}
+.assign-2-shape-2 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: repeat-y;
+}
+.assign-2-shape-3 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: repeat-x;
+}
+.assign-2-shape-4 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: repeat;
+}
+.assign-3-shape-1 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: no-repeat;
+}
+.assign-3-shape-2 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: repeat-y;
+  background-position: 100%;
+}
+.assign-3-shape-3 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+}
+.assign-3-shape-4 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: repeat;
+}
+.assign-4-shape-4 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}
+.assign-4-shape-1 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: no-repeat;
+  background-size: 80%;
+}
+.assign-4-shape-2 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: repeat-y;
+  background-size: 325px;
+  background-position: 100%;
+}
+.assign-4-shape-3 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(245, 241, 237);
+  background-image: url("/images/css-assignment-5-8.png");
+  background-repeat: repeat-x;
+  background-size: 325px;
+  background-position: 0 100%;
+}
+.assign-5-shape-1 {
+  display: inline;
+  background-color: #eee;
+  border: 5px solid red;
+  outline: 5px solid black;
+  padding: 10px;
+  margin: 10px;
+  font-size: 40px;
+}
+.assign-5-shape-2 {
+  display: inline;
+  background-color: #eee;
+  border-top: 5px solid blue;
+  border-bottom: 5px solid blue;
+  border-right: 5px solid green;
+  border-left: 5px solid green;
+  outline: 5px solid black;
+  padding: 10px;
+  margin: 10px;
+  font-size: 40px;
+}
+.assign-5-shape-3 {
+  display: inline;
+    background-color: #eee;
+    border-top: 5px dashed red;
+    border-bottom: 5px dashed blue;
+    border-right: 5px dashed green;
+    border-left: 5px dashed yellow;
+    outline: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 40px;
+  }
+.element-element-1{
+    width: 400px;
+    background-color: #eee;
+    padding: 25px;
+    border-left: 5px solid rgb(223, 55, 156);
+    outline: 15px solid #eee;
+    width: 35%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+.element-element-2{
+    width: 400px;
+    background-color: #eee;
+    padding: 25px;
+    border-left: 5px solid rgb(223, 55, 156);
+    outline: 15px solid #eee;
+    width: 35%;
+    margin: auto;
+    visibility: hidden;
+}
+.element-element-3{
+    width: 400px;
+    background-color: #eee;
+    padding: 25px;
+    border-left: 5px solid rgb(43, 193, 53);
+    outline: 15px solid #eee;
+    width: 35%;
+    margin: auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+.parent .child .title{
+  color: red;
+}
+.parent .title{
+  color: blue;
+}
+div.title,
+ div p{
+  color: rgb(4, 228, 4);
+}
+.one1,
+.two2,
+.three3,
+.four4{
+  background-color: red;
+  color: #eee;
+  width: fit-content;
+  max-width: 400px;
+  overflow: hidden;
+}
+h1{
+  text-transform: capitalize;
+  text-shadow: 1px 1px orange , 2px 2px blue , 3px 3px violet;
+
+}
+p.one{
+  text-transform: uppercase;
+}
+p.two{
+  text-transform: capitalize;
+}
+p.three{
+  text-transform: lowercase;
+}
+.align1,
+.align2,
+.align3{
+  padding: 20px;
+  margin: auto;
+  background-color: #eee;
+  width: 400px;
+}
+.align3{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+a{
+  background-color: rgb(15, 111, 15);
+  color: white;
+  padding: 20px 40px;
+  margin: 50%;
+  border-bottom: 10px solid rgb(46, 76, 1);
+  text-decoration: none;
+  text-transform: capitalize;
+
+}
+
+.inherit{
+  width: fit-content;
+  background-color: #eee;
+  border: 10px solid red;
+  padding: 20px ;
+}
+.inherit p{
+  border: inherit;
+  padding: inherit;
+}
+.align4{
+  font-family:"open sans";
+  text-transform: capitalize;
+}
+.align5{
+  font-family:"cairo";
+  text-transform:capitalize;
+}
+.align6{
+  font-family: jomhuria;
+  text-transform: capitalize;
+}
+.align7{
+  text-transform: capitalize;
+  font-size: 2.5rem;
+}
+.align8{
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+.align9{
+  text-transform: capitalize;
+  font-size: 1.5rem;
+}
+.normal,
+.opacity1,
+.opacity2 {
+  margin: 20px auto;
+  width: 300px;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 20px;
+  background-color:gray;
+  color: black;
+}
+.opacity1{
+  background-color:rgba(162, 162, 162, 0.1);
+}
+.opacity2{
+  opacity: 0.1;
+}
